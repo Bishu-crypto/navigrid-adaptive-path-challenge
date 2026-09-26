@@ -1,0 +1,5 @@
+# NaviGrid Bringup Parameters
+bringup:
+  ros__parameters:
+    use_sim_time: true
+    robot_name: "navigrid_robot"

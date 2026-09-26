@@ -1,0 +1,13 @@
+safety_node:
+  ros__parameters:
+    use_sim_time: true
+    k: 0.5
+    d_min: 0.5
+    cone_angle_deg: 120.0
+    override_rate_hz: 20.0
+
+twist_priority_mux:
+  ros__parameters:
+    use_sim_time: true
+    safety_timeout_sec: 0.3
+    nav_timeout_sec: 0.5
